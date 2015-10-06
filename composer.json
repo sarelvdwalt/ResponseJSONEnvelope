@@ -1,0 +1,16 @@
+{
+  "name": "sarelvdwalt/response-json-envelope",
+  "description": "A simple object that can be used to put a response (in JSON, given as an array) inside a standard envelope, giving you a place to put certain meta-data, including the response-code.",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Sarel van der Walt",
+      "email": "sarel.w@gmail.com"
+    }
+  ],
+  "require": {
+    "jms/serializer": "~1.1@dev",
+    "symfony/http-foundation": "~3.0@dev"
+  }
+}
