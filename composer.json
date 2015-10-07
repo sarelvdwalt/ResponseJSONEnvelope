@@ -12,5 +12,8 @@
   "require": {
     "jms/serializer": "~1.1@dev",
     "symfony/http-foundation": "~3.0@dev"
+  },
+  "require-dev": {
+    "symfony/var-dumper": "2.7.*"
   }
 }
