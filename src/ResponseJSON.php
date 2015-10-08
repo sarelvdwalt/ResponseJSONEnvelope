@@ -87,7 +87,7 @@ class ResponseJSON extends Response
         $json = $serializer->serialize(
             array(
                 'content' => $this->_content,
-                'meta' => $meta,
+                'meta' => $meta
             ), 'json', $serializerContext);
 
         $this->setContent($json);
