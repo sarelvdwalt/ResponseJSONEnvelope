@@ -3,7 +3,7 @@ A simple object that can be used to put a response (in JSON, given as an array) 
 
 # Installation
 
-    composer require sarelvdwalt/ResponseJSONEnvelope
+    composer require sarelvdwalt/response-json-envelope
 
 # Usage
 
