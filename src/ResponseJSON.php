@@ -1,8 +1,4 @@
 <?php
-/**
- *
- */
-
 namespace sarelvdwalt\ResponseJSONEnvelope;
 
 use JMS\Serializer\SerializationContext;
@@ -11,6 +7,9 @@ use Symfony\Component\HttpFoundation\Response;
 
 class ResponseJSON extends Response
 {
+    /**
+     * @var array
+     */
     private $with = array();
 
     /**
@@ -96,5 +95,4 @@ class ResponseJSON extends Response
 
         return $this;
     }
-
 }
