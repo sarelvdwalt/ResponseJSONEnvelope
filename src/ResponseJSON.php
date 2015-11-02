@@ -41,9 +41,9 @@ class ResponseJSON extends Response
      * @param array $extra_meta
      * @api
      */
-    public function __construct($content = '', $status = 200, $headers = array(), $extra_meta = array())
+    public function __construct($content = '', $status = self::HTTP_OK, $headers = array(), $extra_meta = array())
     {
-        parent::__construct('', 200, array('Content-Type' => 'application/json'));
+        parent::__construct('', self::HTTP_OK, array('Content-Type' => 'application/json'));
 
         $this->_content = $content;
         $this->_status = $status;
