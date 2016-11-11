@@ -1,4 +1,4 @@
-<?php
+<script language="php">
 namespace sarelvdwalt\ResponseJSONEnvelope;
 
 use JMS\Serializer\SerializationContext;
@@ -96,3 +96,4 @@ class ResponseJSON extends Response
         return $this;
     }
 }
+</script>
